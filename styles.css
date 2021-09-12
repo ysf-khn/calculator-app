@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #239389;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.switch {
+  position: absolute;
+  font-size: 1.5em;
+  top: 1.5em;
+  right: 1.5em;
+  padding: 0 0.2em;
+  cursor: pointer;
+  outline: 2px solid black;
+}
+
+.container {
+  height: 70vh;
+  width: 16em;
+  background-color: white;
+  border-radius: 0.9em;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  overflow: hidden;
+}
+
+/* .container-dark {
+  background-color: black;
+} */
+
+.display {
+  padding: 0.5em;
+  height: 40%;
+}
+
+/* .display-dark {
+  background-color: #000807;
+  color: #f3f3f3;
+} */
+
+.operators {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  transition: all 0.3s ease;
+}
+
+button {
+  font-size: 2.2em;
+  border: none;
+  cursor: pointer;
+}
+
+/* .btn-dark {
+  background-color: #061215;
+  color: #f3f3f3;
+} */
+
+button:hover {
+  background-color: #dddbdb;
+}
+
+.btn-light {
+  background-color: #bce8e4;
+}
+
+/* .btn-light-dark {
+  background-color: #0b3d3f;
+  color: #f3f3f3;
+} */
+
+.btn-light:hover {
+  background-color: #9cccc8;
+}
+
+.btn-equal {
+  background-color: #239389;
+  color: #f3f3f3;
+  grid-column: 3/5;
+}
+
+.btn-equal:hover {
+  background-color: #109186;
+}
