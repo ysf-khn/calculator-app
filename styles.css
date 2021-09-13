@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-  height: 70vh;
+  height: 440px;
   width: 16em;
   background-color: white;
   border-radius: 0.9em;
@@ -36,19 +36,19 @@ body {
   overflow: hidden;
 }
 
-/* .container-dark {
+.container-dark {
   background-color: black;
-} */
+}
 
 .display {
   padding: 0.5em;
   height: 40%;
 }
 
-/* .display-dark {
+.display-dark {
   background-color: #000807;
   color: #f3f3f3;
-} */
+}
 
 .operators {
   display: grid;
@@ -62,23 +62,28 @@ button {
   cursor: pointer;
 }
 
-/* .btn-dark {
+.btn-dark {
   background-color: #061215;
   color: #f3f3f3;
-} */
+}
 
 button:hover {
   background-color: #dddbdb;
+}
+
+.btn-divide {
+  font-size: 1em;
+  font-weight: 1000;
 }
 
 .btn-light {
   background-color: #bce8e4;
 }
 
-/* .btn-light-dark {
+.btn-light-dark {
   background-color: #0b3d3f;
   color: #f3f3f3;
-} */
+}
 
 .btn-light:hover {
   background-color: #9cccc8;
