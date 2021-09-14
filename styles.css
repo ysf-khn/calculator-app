@@ -41,8 +41,21 @@ body {
 }
 
 .display {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
   padding: 0.5em;
   height: 40%;
+}
+
+.current-operand {
+  font-size: 3em;
+}
+
+.previous-operand {
+  font-size: 2em;
+  opacity: 0.8;
 }
 
 .display-dark {
@@ -69,11 +82,6 @@ button {
 
 button:hover {
   background-color: #dddbdb;
-}
-
-.btn-divide {
-  font-size: 1em;
-  font-weight: 1000;
 }
 
 .btn-light {
